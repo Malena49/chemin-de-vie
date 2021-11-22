@@ -1,12 +1,12 @@
 footer{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 2%;
+  
+    padding: 5% 2% 2%;
     background-color: turquoise;
 }
 a{
-    display: block;
+    padding: 1%;
     text-decoration: none;
     color: white;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
 }
