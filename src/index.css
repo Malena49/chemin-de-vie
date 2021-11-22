@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+.conteneur{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  padding: 2%;
+  color: white;
+  background-color: turquoise;
+  border-radius: 20px;
+  margin-top: 2%
+}
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2021/11/08/23/29/nature-6780354_1280.jpg");
+    background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
