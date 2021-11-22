@@ -58,6 +58,11 @@ const chemin = [
         numero:33,
         titre:"Service universel",
         description:"Ce Chemin de vie est celui des grandes responsabilités et des larges possibilités pour faire avancer l’humanité. Les 33 éclairent les consciences, pour aider autrui, pour apporter leur lumière à l’humain. Ils démontrent d’énormes compétences naturelles, mais son trop-plein d’émotions peut lui compliquer la vie, et d’accomplir sa tâche ici-bas."
+    },
+    {
+        numero:10,
+        titre: "Individualité",
+        description: "Le voyageur du Chemin de vie 1 est une personne très active, enthousiaste et ambitieuse et possède une autorité naturelle très affirmée. Ce Chemin mène vers l’accomplissement et le dépassement de soi, non sans efforts. Véritable leader, ce voyageur sait assumer ses responsabilités, on peut toujours compter sur lui !"
     }
 
 ]
