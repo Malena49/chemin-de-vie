@@ -25,7 +25,9 @@ let sum=0;
       preimierResulte+=numeroselect(i);
     }
     let resulat=0;
-  if(preimierResulte<=9 || preimierResulte ===11 || preimierResulte===22 ||preimierResulte===33){
+if (sum===11||sum===22 ||sum===33){
+  resulat=sum
+}else if(preimierResulte<=9 || preimierResulte ===11){
 resulat=preimierResulte
   }else if (preimierResulte===19){
     resulat =1
