@@ -9,18 +9,36 @@ function Body({chemin, naissance}) {
 const single=(i)=>{
   return Math.floor((nan/(10**i)))-Math.floor((nan/(10**(i+1))))*10
 }
-
+//addtionner tous les chiffres de date de naissance
 let sum=0;
     for(let i =0;i<8;i++){
        sum+=single(i);
     }
+    
     const numeroselect =(i)=>{
   return Math.floor((sum/(10**i)))-Math.floor((sum/(10**(i+1))))*10
 }
-    let resulat =0;
-    for(let i =0;i<8;i++){
-      resulat+=numeroselect(i);
+
+//additonner les chiffres de sum
+    let preimierResulte =0;
+    for(let i =0;i<2;i++){
+      preimierResulte+=numeroselect(i);
     }
+    let resulat=0;
+  if(preimierResulte<=9 || preimierResulte ===11 || preimierResulte===22 ||preimierResulte===33){
+resulat=preimierResulte
+  }else if (preimierResulte===19){
+    resulat =1
+  } else {
+    const numeroT =(i)=>{
+      return Math.floor((preimierResulte/(10**i)))-Math.floor((preimierResulte/(10**(i+1))))*10}
+      for(let i =0;i<2;i++){
+        
+        resulat+=numeroT(i);
+      }
+
+  }
+
     const filter = chemin.filter((vie)=>vie.numero===resulat)
     return (
         <div className="resulat">

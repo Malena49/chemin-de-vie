@@ -1,7 +1,7 @@
 h1{
 font-size: 3em;
     font-weight: 900;
-    border-bottom: white 5px solid;
+    border-bottom: rgb(255, 255, 255) 5px solid;
 }
 label{
     font-weight: 700;
@@ -15,7 +15,9 @@ input{
 padding: 2% 4%;
 border: none;
 font-size: 1.5em;
-color: rgb(199, 90, 199);
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+
 }
 header{
     margin-bottom: 7%;
